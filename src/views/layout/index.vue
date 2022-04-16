@@ -75,9 +75,10 @@
         </n-icon>
       </template>
       <n-input placeholder="会员码" v-model:value="code"></n-input>
-      <!--<p>
-        <a style="color: #306eff;" target="_blank" href="https://k.youshop10.com/JGDtoxg6">【0.33元/天】PikPak体验会员VIP年卡-可与7天免费会员码叠加-每人只能购买使用一次，感谢支持</a>
-      </p>-->
+      <p>https://t.me/smgorochat
+        <!--<a style="color: #306eff;" target="_blank" href="https://k.youshop10.com/JGDtoxg6">【0.33元/天】PikPak体验会员VIP年卡-可与7天免费会员码叠加-每人只能购买使用一次，感谢支持</a>-->
+        <a style="color: #306eff;" target="_blank" href="https://t.me/smgorochat">TG交流群</a>
+      </p>
 
       <template #action>
         <n-button :block="true" type="primary" :disabled="!code" @click="postCode">添加</n-button>
